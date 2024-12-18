@@ -191,7 +191,7 @@ config DOCKER_SWAP
 
 	bool "Enable swap limit"
 
-	default n
+	default y
 
 	depends on DOCKER
 
